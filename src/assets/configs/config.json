@@ -1,0 +1,23 @@
+{
+  "apiConfig": {
+    "apiHost": "localhost",
+    "apiPath": "/api",
+    "apiPort": 8081,
+    "apiSsl": false,
+    "apiSslPort": 443
+  },
+  "oAuth2Config": {
+    "protocol": "http",
+    "domain": "localhost",
+    "port": 8082,
+    "clientId": "rest_client_id",
+    "client_secret": "",
+    "scope": "rest:admin",
+    "grantType": "password",
+    "path": "/oauth/token",
+    "refreshGrantType": "refresh_token",
+    "hrSchema": "hrpj",
+    "hrIfSchema": "hrpj",
+    "hrTimeZone": "GMT+9:00"
+  }
+}
